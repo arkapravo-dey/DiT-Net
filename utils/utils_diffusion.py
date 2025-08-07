@@ -1,5 +1,3 @@
-# utils_diffusion.py: Apply forward diffusion to image tensors
-
 import torch
 import torch.nn.functional as F
 

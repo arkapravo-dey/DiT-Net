@@ -1,12 +1,9 @@
-# promptir_model.py: Placeholder architecture for PromptIR
-
 import torch.nn as nn
 import torch
 
 class PromptIR(nn.Module):
     def __init__(self):
         super(PromptIR, self).__init__()
-        # Dummy placeholder U-Net-like architecture
         self.encoder = nn.Sequential(
             nn.Conv2d(3, 64, 3, padding=1),
             nn.ReLU(),
