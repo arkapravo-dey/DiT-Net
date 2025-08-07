@@ -23,7 +23,7 @@ def train():
     criterion = nn.L1Loss()
     optimizer = optim.Adam(model.parameters(), lr=1e-4)
 
-    for epoch in range(50):
+    for epoch in range(100):
         total_loss = 0
         for hazy, gt in tqdm(train_loader):
             hazy, gt = hazy.to(device), gt.to(device)
