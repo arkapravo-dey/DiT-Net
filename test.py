@@ -1,5 +1,3 @@
-# test.py: Evaluation script for PromptIR with PSNR & SSIM
-
 import os
 import torch
 import numpy as np

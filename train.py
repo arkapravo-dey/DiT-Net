@@ -1,5 +1,3 @@
-# train.py: Training script using PromptIR and forward diffusion
-
 from models.promptir_model import PromptIR
 from dataset.dataset_dehaze import DehazeDataset
 from utils.utils_diffusion import apply_forward_diffusion
